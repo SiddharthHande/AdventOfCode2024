@@ -1,4 +1,4 @@
-package code1
+package problemDayOne
 
 import (
 	"adventofcode/helper"

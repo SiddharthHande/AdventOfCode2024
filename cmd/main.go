@@ -1,8 +1,8 @@
 package main
 
 import (
-	code1 "adventofcode/code_1"
 	"adventofcode/helper"
+	problemDayOne "adventofcode/problem_dayone"
 	"log"
 )
 
@@ -11,5 +11,5 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	code1.ProblemTwo(data)
+	problemDayOne.ProblemTwo(data)
 }
